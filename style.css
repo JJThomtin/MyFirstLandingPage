@@ -1,17 +1,21 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
 }
 .header{
-    background: gainsboro;
+    height: 80px;
+    background: rgb(221, 162, 162);
     justify-content: space-between;
     align-items: center;
+    border: 3px solid black;
     display: flex;
 }
 .title{
     margin-left: 16px;
+    font-size: 36px;
 }
 .link-list{
     display: flex;
@@ -22,6 +26,73 @@ body{
 }
 
 .main-body{
-    background: gainsboro;
+    background: lightcyan;
     height: 150px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+}
+
+.body{
+    height: 300px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.body-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    font-size: 28px;
+}
+
+.box-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.section-1{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 25px;
+}
+.paragraph{
+    height: 150px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    border: 3px solid black;
+}
+
+.widget-box{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+    height: auto;
+}
+
+.button{
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    height: 50px;
 }
