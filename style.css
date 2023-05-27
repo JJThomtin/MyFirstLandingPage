@@ -1,37 +1,38 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
 }
 .header{
     height: 80px;
-    background: rgb(221, 162, 162);
+    background: rgb(81, 136, 93);
+    color:white;
     justify-content: space-between;
     align-items: center;
-    border: 3px solid black;
     display: flex;
 }
 .title{
     margin-left: 16px;
-    font-size: 36px;
+    font-size: 38px;
 }
 .link-list{
     display: flex;
+    font-size: 24px;
     align-items: center;
     list-style: none;
     margin-right: 16px;
-    gap: 14px
+    gap: 16px
 }
 
 .main-body{
-    background: lightcyan;
+    background: rgb(81, 136, 93);
     height: 150px;
-    border: 3px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
+    color:white;
     gap: 400px;
 }
 
@@ -47,7 +48,7 @@ body{
     justify-content: center;
     align-items: center;
     border: 3px solid black;
-    font-size: 28px;
+    font-size: 42px;
 }
 
 .box-section{
@@ -59,11 +60,18 @@ body{
 
 .section-1{
     border: 2px solid black;
-    border-radius: 25px;
-    padding: 25px;
+    border-radius: 30px;
+    padding: 15px;
+    width: 225px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .paragraph{
     height: 150px;
+    background-color: rgb(240, 239, 239);
     border: 3px solid black;
     display: flex;
     justify-content: center;
@@ -71,28 +79,36 @@ body{
 }
 
 .widget{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 250px;
-    border: 3px solid black;
+    width: auto;
 }
 
 .widget-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid black;
-    border-radius: 20px;
+    background: rgb(159, 252, 179);
+    border-radius: 30px;
     margin: 30px;
-    padding: 20px;
+    padding: 0px;
+    gap: 70px;
     height: auto;
+    width: auto;
 }
 
 .button{
     
 }
 .footer{
+    background: rgb(81, 136, 93);
     display: flex;
     justify-content: center;
     align-items: center;
     border: 3px solid black;
     height: 50px;
+}
+
+h3{
+    font-size: 30px;
 }
